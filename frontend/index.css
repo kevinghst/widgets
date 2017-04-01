@@ -1,0 +1,79 @@
+html, body, header, nav, h1, a, ul, li,
+strong, main, section, img, div, h2, p,
+form, fieldset, label, input, textarea,
+button, article, footer, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  box-sizing: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  color: inherit;
+  background: transparent;
+}
+
+.group:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+body {
+  box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+img {
+  border-radius: 1px;
+}
+
+.widgets {
+  width: 600px;
+  margin: 40px auto;
+}
+
+.clock-header{
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.clock-content{
+  font-size: 40px;
+  background: gray;
+  padding: 30px;
+  text-align: center;
+}
+
+.autocomplete {
+  margin-top: 20px;
+}
+
+.tabs {
+  margin-top: 20px;
+}
+
+.tabs-header{
+  font-size: 30px;
+}
+
+.tabs-titles{
+  display: flex;
+}
+
+.one, .two, .three{
+  width: 50px;
+  text-align: center;
+  padding: 10px;
+  background: #7FDBFF;
+}
